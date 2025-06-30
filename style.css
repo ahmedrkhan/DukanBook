@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button hover effect */
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+  transition: 0.5s ease-in-out;
+}
+
+/* Table basic styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+/* Input and Select styling */
+input,
+select {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.2s ease-in-out;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+input:focus,
+select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+  background-color: #25d366;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #128c7e;
+}
+
+/* Delete Button */
+.delete-btn {
+  background-color: #f87171;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #dc2626;
+}
+
+/* Responsive enhancements */
+@media (max-width: 768px) {
+  table,
+  th,
+  td {
+    font-size: 13px;
+    padding: 8px;
+  }
+
+  .whatsapp-btn,
+  .delete-btn,
+  button {
+    font-size: 13px;
+    padding: 5px 10px;
+  }
+
+  h1, h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  table,
+  th,
+  td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .whatsapp-btn,
+  .delete-btn {
+    font-size: 12px;
+    padding: 4px 8px;
+  }
+
+  input,
+  select {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 1.1rem;
+  }
+}
