@@ -1,5 +1,5 @@
 
-https://ahmedrkhan.github.io/Dukaan/
+[https://ahmedrkhan.github.io/Dukaan/](https://ahmedrkhan.github.io/DukanBook/)
 
 
 DukanBook: A Local Credit Management Web App for Mumbai Shopkeepers"*
